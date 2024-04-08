@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+body{
+    background-color: black;
+    overflow: hidden;
+}
+  .navbar {
+left: 200px;
+  }
+
+  .navcenter {
+    margin-top: 50px;
+margin-left: 400px;
+  }
+
+  #input {
+    width: 600px;
+    border-radius: 0.2rem;
+    background: wheat;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    position: absolute;
+    font-size: 18px;
+  }
+
+  .btn {
+    font-size: 18px;
+    position: relative;
+    top: 3px;
+    left: 476px;
+    border: transparent;
+    padding: 0.8rem;
+    border-radius: 0.2rem;
+    background:blue;
+    color: white;
+    cursor: pointer;
+  }
+
+  .card-container {
+    margin-top: 25px;
+    margin-left: 401px;
+    border-radius: 0.2rem;
+    width: 43.8%;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    background: slategray;
+    border:2px solid white ;
+
+  }
+.name{
+  width: 200px;
+  margin-top: 30px;
+}
+.join{
+  margin-top: 30px;
+font-size: 18px;
+}
+img {
+  border-radius: 50%;
+  width: 20%;
+} 
+.card {
+    border-radius: 0.2rem;
+    display: flex;
+    gap: 35px;
+    padding: 20px;
+    border:1px solid white ;
+    /* background: #38298f; */
+  }
+.card2 {
+    border-radius: 0.2rem;
+    display: flex;
+    gap: 80px;
+    padding: 20px;
+    border:1px solid white ;
+  }
+
+  .repo{
+    padding-left: 140px;
+    color: rgb(46, 10, 10);
+    font-size: 20px;
+  }
+  .following,.follower{
+    color: rgb(46, 10, 10);
+    font-size: 20px;
+  }
+  .card3 {
+    border-radius: 0.2rem;
+    display: flex;
+    gap: 80px;
+    padding: 20px;
+  }
+  .location{
+    padding-left: 140px;
+    color: rgb(46, 10, 10);
+    font-size: 20px;
+  }
+  .twitter,.linkdein{
+    color: rgb(46, 10, 10);
+    font-size: 20px;
+  }
+  .card4 {
+    border-radius: 0.2rem;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  .profile{
+width: 100%;
+margin-left: 200px;
+  }
+  a {
+    padding: 1rem;
+    background-color: black;
+    color: white;
+  }
+
+  .loading {
+    border: 100px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 100px solid #020202;
+    width: 500px;
+    height: 500px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
